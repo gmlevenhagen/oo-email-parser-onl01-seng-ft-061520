@@ -9,3 +9,7 @@ attr_accessor :emails
 def initialize(emails)
   @emails = emails
 end
+
+def initialize(parse)
+  @parse = parse
+end
